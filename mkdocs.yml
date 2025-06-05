@@ -1,4 +1,5 @@
 site_name: TruCtrl Documentation
+site_url: https://docs.truledgr.app
 theme:
   name: material
   palette:
