@@ -24,9 +24,6 @@ jobs:
         run: |
           pip install mkdocs mkdocs-material ghp-import
 
-      - name: Copy README.md to docs/TruCtrl-Docs/README.md
-        run: cp README.md docs/TruCtrl-Docs/README.md
-
       - name: Build site
         run: mkdocs build
 
